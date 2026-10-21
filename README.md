@@ -15,9 +15,9 @@ git clone https://github.com/t945935/rust-practical-beginner-resources.git
 
 ## 目前狀態
 
-目前提供第一個起始範例：`examples/00-hello-rust/`。其餘章節的練習、合成資料與解答將依書稿進度逐步加入。此範例尚未在本次建置環境執行：目前環境沒有安裝 Rust；讀者可先依 Rust 官方文件安裝 Rust/Cargo，再執行範例。
+目前提供第一個起始範例：`examples/00-hello-rust/`。其餘章節的練習、合成資料與解答將依書稿進度逐步加入。此範例尚未在本次建置環境執行：目前環境沒有安裝 Rust；請先依 [Rust 官方安裝說明](https://rust-lang.org/zh-TW/tools/install/)安裝 Rust/Cargo，再執行範例。
 
-建議工具鏈基準為 Rust 1.97.0 或更新 stable、Rust 2024 Edition；出版版與各資源版本須以書稿凍結時重新確認的版本為準。
+建議工具鏈基準為 Rust 1.97.0 或更新 stable、Rust 2024 Edition；這是依官方 Rust Book 的版本假設設定的候選最低基準，不代表本 Repo 已經過 Rust 編譯測試。出版版與各資源版本須以書稿凍結時重新確認的版本為準。
 
 ## 資源索引
 
