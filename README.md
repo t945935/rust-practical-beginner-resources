@@ -15,15 +15,16 @@ git clone https://github.com/t945935/rust-practical-beginner-resources.git
 
 ## 目前狀態
 
-目前提供第一個起始範例：`examples/00-hello-rust/`。其餘章節的練習、合成資料與解答將依書稿進度逐步加入。此範例尚未在本次建置環境執行：目前環境沒有安裝 Rust；請先依 [Rust 官方安裝說明](https://rust-lang.org/zh-TW/tools/install/)安裝 Rust/Cargo，再執行範例。
+目前提供兩個可獨立執行的 Cargo 範例：第一章 Hello Rust 起始範例，以及第九至第十二章的最終檢查點 `examples/12-rust-log-summary/`。另有 `data/sample.log` 與第十二章練習提示。Hello Rust 範例尚未在本環境執行；最終專案是依書內既有 runtime harness 建立，但本次工作環境找不到 `cargo`／`rustc`，因此尚未在此 Repo 副本重跑測試。請先依 [Rust 官方安裝說明](https://rust-lang.org/zh-TW/tools/install/)安裝工具鏈，再按各範例 README 執行。
 
-建議工具鏈基準為 Rust 1.97.0 或更新 stable、Rust 2024 Edition；這是依官方 Rust Book 的版本假設設定的候選最低基準，不代表本 Repo 已經過 Rust 編譯測試。出版版與各資源版本須以書稿凍結時重新確認的版本為準。
+書稿技術基準為 Rust 2024 Edition、Rust 1.99.1／Cargo 1.99.1、WSL Linux x86_64。這不代表 Repo 內新增副本已在本次工作階段通過建置，也不宣稱其他版本或平台相容。
 
 ## 資源索引
 
-- `examples/00-hello-rust/`：Cargo Hello World 起始專案。
-- `exercises/`：逐章練習（建置中）。
-- `data/`：合成文字紀錄測試資料（建置中）。
+- `examples/00-hello-rust/`：第一章 Cargo Hello World 起始專案。
+- `examples/12-rust-log-summary/`：第九至第十二章最終模組化 CLI，含單元與整合測試；不是逐章中途快照。
+- `exercises/12-final-project.md`：最終專案練習、預期行為與提示；不是全書逐題答案集。
+- `data/sample.log`：合成範例資料。
 
 ## 回報問題
 
@@ -31,4 +32,4 @@ git clone https://github.com/t945935/rust-practical-beginner-resources.git
 
 ## 授權
 
-目前尚未指定 License。Repo 公開不代表第三方自動取得再散布、修改或商業使用授權。出版前需確認並補上適當授權及署名方式。
+本 Repo 的 `LICENSE-CODE` 依使用者選定採 MIT，僅適用於 `examples/**/*.rs`（含測試）。不涵蓋 Markdown 說明、練習、sample data、書稿、封面或其他 Repo 內容。版權署名採書籍 metadata 的 `Happy eBook Authors`。

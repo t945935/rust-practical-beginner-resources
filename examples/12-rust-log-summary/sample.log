@@ -1,0 +1,4 @@
+INFO|service started
+WARN|retrying request
+ERROR|request failed
+INFO|service stopped
